@@ -1,0 +1,36 @@
+div#con5.container-fluid{padding: 0;}
+
+
+div#para, div#pub-col-1, div#pub-col-2{padding: 1em 9em;}
+
+ol, ul, li, pre, b{color: #658986;}
+
+pre{padding: 0;
+    border: none;}
+
+@media only screen and (max-width: 1024px){
+
+  div#para, div#pub-col-1, div#pub-col-2{text-align: left;}
+}
+
+@media only screen and (max-width: 786px){
+
+  div#para, div#pub-col-1, div#pub-col-2{padding: 1em 2em;
+           }
+}
+
+#image{background-image: url(../images/coffe.jpg);
+       background-size: cover;
+       
+       }
+
+#image h1{padding-top: 3em;
+          padding-bottom: 3em;
+          display: table;
+          margin: auto;
+          color: white;
+          text-shadow: 2px 2px 4px black;}
+
+
+
+span{color: red;}

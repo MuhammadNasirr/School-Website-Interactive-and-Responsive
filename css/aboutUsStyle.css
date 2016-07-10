@@ -1,0 +1,29 @@
+div#con5.container-fluid{padding: 0;}
+
+
+div#para{padding: 1em 9em;}
+
+
+@media only screen and (max-width: 1024px){
+
+  div#para{text-align: left;}
+}
+
+@media only screen and (max-width: 786px){
+
+  div#para{padding: 1em 2em;
+           }
+}
+
+#image{background-image: url(../images/coffe.jpg);
+       background-size: cover;
+       
+       }
+
+#image h1{padding-top: 3em;
+          padding-bottom: 3em;
+          display: table;
+          margin: auto;
+          color: white;
+          text-shadow: 2px 2px 4px black;}
+

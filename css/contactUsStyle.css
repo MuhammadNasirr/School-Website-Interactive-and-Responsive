@@ -1,0 +1,39 @@
+div#con5.container-fluid{padding: 0;}
+
+
+div#para1, div#para2, div#para3 {padding: 1em 5em;}
+
+
+h3{font-size: 1.3em;
+  text-align: left;}
+
+@media only screen and (max-width: 1024px){
+
+  div#para1, div#para2, div#para3{text-align: center;}
+
+    h3{text-align: center;}
+}
+
+
+@media only screen and (max-width: 786px){
+
+  div#para1, div#para2, div#para3{padding: 1em 2em;
+
+                                  }
+}
+
+#image{background-image: url(../images/coffe.jpg);
+       background-size: cover;
+       
+       }
+
+#image h1{padding-top: 3em;
+          padding-bottom: 3em;
+          display: table;
+          margin: auto;
+          color: white;
+          text-shadow: 2px 2px 4px black;}
+
+
+
+

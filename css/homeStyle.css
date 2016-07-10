@@ -1,0 +1,14 @@
+#con5, #con6, #con7, #con8 {padding-top: 3em;
+                            padding-bottom: 3em;
+                            border-top: 8px double #AEE2DC;}
+
+
+@media only screen and (max-width: 1024px) {
+    #con5, #con6, #con7, #con8 {text-align: center;
+    }
+
+    body{text-align: center;}
+
+    
+}
+
